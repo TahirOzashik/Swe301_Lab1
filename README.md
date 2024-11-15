@@ -1,28 +1,19 @@
-# Swe301_Lab1
+InfoSuper Bank ATM-Money Withdrawal System  
 
-InfoSuper Bank ATM-Money Withdrawal System: A simulated ATM interface that emphasizes security, user-friendliness, and simplicity in handling safe cash withdrawals. It provides updated balances and real-time feedback, allowing users to withdraw money from their account after authenticating with a PIN.
+A simulated ATM interface focusing on security and ease of use for safe cash withdrawals  
 
-Features
-User authentication: A secure PIN must be confirmed to authorize withdrawals.
-Processing withdrawals: Allows withdrawals up to the account balance limits.
-Balance Display: Updates after transactions and displays the current account balance.
-Transaction status messages are real-time notifications for successful withdrawals, incorrect PIN entry, insufficient balances, or canceled transactions.
-Friendly Interface: Simple input fields and buttons, responsive design.
+Features  
+User authentication with secure PIN verification  
+Withdrawals within account balance limits  
+Real-time balance updates after transactions  
+Notifications for successful transactions errors or cancellations  
+Simple and responsive user interface  
 
-Technology Used
-HTML: The ATM interface's design and organization.
-CSS: Making a beautiful, user-friendly interface.
-JavaScript: Account management logic, withdrawal transactions, and user interaction.
+Technology  
+HTML and CSS for layout and styling  
+JavaScript for transaction logic and interactions  
 
-The principal HTML file that displays the ATM interface is index.html.
-style.css: CSS used to add layouts, colors, and button animations to the ATM interface.
-Index.js: JavaScript responsible for transaction feedback, balance changes, and authentication.
+Usage  
+Clone the repository open `index.html` in a browser and follow the prompts for withdrawals  
 
-Start
-Clone the repository: bash
-Clone the https://github.com/TahirOzashik/Swe301_Lab1.git
-Start the project: Open index.html in a web browser to access the ATM interface.
-
-Use
-
-Enter the amount that was withdrawn. Insert the PIN. To complete the transaction, click Withdraw; to reset, click Cancel. Safety Basic PIN authentication is part of this project. Make sure that security features and sensitive data are implemented in a production setting.
+[GitHub Repo](https://github.com/TahirOzashik/Swe301_Lab1)  
