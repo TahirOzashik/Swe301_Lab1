@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title> InfoSuper bank ATM </title>
+</head>
+<body>
+    <div class="system">
+        <h1>InfoSuper bank ATM </h1>
+        <p>Account Number: <span id="accountNumberDisplay"></span></p>
+        <p>Account Name: <span id="name"></span></p>
+        <p>Account Balance
+            <input class="input" id="myBalance" type="text" value="100000" readonly>
+        </p>
+        <p>withdrawal Amount
+            <input class="input" id="myAmount" type="number" value="200" min="200" max="100000" >
+        </p>
+        <p> message  </p>
+
+        <button class ="button button-withdraw" type="button" id="withdrawbutton"> Withdraw </button>
+        <button class ="button button-cancel" type="button" id="cancelbutton"> Cancel </button>
+
+        <input type="password" id="pinCodeInput" placeholder="Enter PIN Code" />
+
+        
+    </div>
+
+</body>
+
+<script src="index.js"></script> 
+
+</html>

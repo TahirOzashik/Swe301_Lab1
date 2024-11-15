@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('blue-concrete-textured-wall.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    color: #f0f0f0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.system {
+    width: 100%;
+    max-width: 420px;
+    padding: 20px 30px;
+    background-color: rgba(255, 255, 255, 0.1); 
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+
+.system h1 {
+    font-size: 2.2rem;
+    color: #ffffff;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+
+.system p {
+    font-size: 1rem;
+    margin: 15px 0;
+    color: #e0e0e0;
+}
+
+
+.input, #pinCodeInput {          /*(#) selector targets elements by id.*/
+    width: 100%;
+    max-width: 380px;
+    padding: 12px;
+    margin: 8px 0;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+    outline: none;
+    color: #333;
+}
+
+
+.button {
+    width: 48%;
+    padding: 12px;
+    margin: 12px 2px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s , transform 0.1s;
+}
+
+
+.button-withdraw {
+    background-color: #4CAF50; 
+}
+
+.button-withdraw:hover {
+    background-color: #45a049;
+}
+
+.button-withdraw:active {             /* represents an element (such as a button) that is being activated by the user */
+    background-color: #388e3c;
+    transform: scale(0.98);
+}
+
+
+.button-cancel {
+    background-color: #f44336; 
+}
+
+.button-cancel:hover {
+    background-color: #d32f2f;
+}
+
+.button-cancel:active {
+    background-color: #b71c1c;
+    transform: scale(0.98); /*allows you to change the size of elements*/
+}
+
+
+#pinCodeInput {            /*(#) selector targets elements by id.*/
+    margin-top: 20px;
+    background-color: #fafafa;
+    color: #333;
+}
+
+#accountNumberDisplay, #name {
+    font-weight: bold;
+    color: #a0d1ff;
+}
