@@ -20,7 +20,7 @@ Index.js: JavaScript responsible for transaction feedback, balance changes, and 
 
 Start
 Clone the repository: bash
-Clone the https://github.com/ozsk04/LAB1.git
+Clone the https://github.com/TahirOzashik/Swe301_Lab1.git
 Start the project: Open index.html in a web browser to access the ATM interface.
 
 Use
