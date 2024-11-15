@@ -13,7 +13,5 @@ Technology
 HTML and CSS for layout and styling  
 JavaScript for transaction logic and interactions  
 
-Usage  
-Clone the repository open `index.html` in a browser and follow the prompts for withdrawals  
-
-[GitHub Repo](https://github.com/TahirOzashik/Swe301_Lab1)  
+SCREEN VIEW
+![lab1_gorsel](https://github.com/user-attachments/assets/4e80d60a-6a05-4d2c-b681-f3c55ff98d38)
