@@ -14,4 +14,5 @@ HTML and CSS for layout and styling
 JavaScript for transaction logic and interactions  
 
 SCREEN VIEW
-![lab1_gorsel](https://github.com/user-attachments/assets/4e80d60a-6a05-4d2c-b681-f3c55ff98d38)
+
+![yuklencek video](https://github.com/user-attachments/assets/31e34a2f-a750-4818-ac02-7d4b9f324422)
