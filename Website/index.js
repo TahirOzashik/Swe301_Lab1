@@ -44,7 +44,7 @@ class Withdrawal {
 }
 
 let bankAccount = new BankAccount('123456789', 100000);
-let customer = new Customer('John Doe', '123456789', 1234, bankAccount);
+let customer = new Customer('Tahir Ozasik', '123456789', 1234, bankAccount);
 
 
 let accountNumberDisplay = document.getElementById('accountNumberDisplay');
